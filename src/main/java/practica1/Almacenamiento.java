@@ -85,12 +85,4 @@ public class Almacenamiento {
 
         return suma;
     }
-
-    void muestra() {
-        for (int i = 0; i < cA; i++) {
-            if (asociados[i] != null) {
-                asociados[i].toString();
-            }
-        }
-    }
 }
