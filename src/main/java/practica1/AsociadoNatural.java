@@ -21,7 +21,7 @@ public class AsociadoNatural extends Asociado{
     public boolean agregarAportacion(float nuevaAportacion) {
     if (nuevaAportacion > 0) {
             aportaciones.add(nuevaAportacion);
-            fechaAportacion = LocalDate.now(); // Actualiza la fecha de la última aportación
+            fechaAportacion = LocalDate.now(); 
             return true;
         }
         return false;
